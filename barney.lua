@@ -25,7 +25,7 @@ function beAwesome()
 end
 
 --life motto
-if sad() then
+if sad() == true then
 	sad().stop()
 	beAwesome()
 end

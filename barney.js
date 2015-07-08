@@ -6,7 +6,7 @@ function sad() {
         console.log("When I get sad,");
         return true;
     } else {
-		return {
+        return {
             "stop" : function () {
                 console.log("I stop being sad");
             }

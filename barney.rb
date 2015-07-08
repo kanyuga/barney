@@ -21,7 +21,7 @@ def beAwesome()
 end
 
 #life motto
-if sad
-    sad.stop
-    beAwesome
+if (sad() === true)
+    sad().stop()
+    beAwesome()
 end
