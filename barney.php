@@ -1,10 +1,9 @@
 <?php
 $isSad = true;
 
-class SadBarney {
-    public function stop() {
-        echo "I stop being sad,\n";
-    }
+function stop() {
+    echo "I stop being sad,\n";
+    return "";
 }
 
 function sad() {
@@ -14,15 +13,15 @@ function sad() {
         echo "When I get sad\n";
         return true;
     } 
-    else return new SadBarney();
+    else return "";
 }
 
 function beAwesome() {
     echo "and be awesome instead\n";
 }
 
-//life moto
+//life motto
 if (sad() === true) {
-    sad()->stop();
+    sad().stop();
     beAwesome();
 }
