@@ -18,6 +18,8 @@ function beAwesome() {
     console.log("and be awesome instead");   
 }
 
+
+//life motto
 if (sad() === true) {
     sad().stop();
     beAwesome();
