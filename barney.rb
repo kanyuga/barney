@@ -20,6 +20,7 @@ def beAwesome()
     puts "and be awesome instead"
 end
 
+#life motto
 if sad
     sad.stop
     beAwesome

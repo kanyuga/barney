@@ -15,7 +15,8 @@ def sad():
 
 def beAwesome():
     print "and be awesome instead"
-
+    
+#life motto
 if (sad() == True): 
     sad().stop()
     beAwesome()

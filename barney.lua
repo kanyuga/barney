@@ -13,7 +13,7 @@ end
 function sad()
 	if isSad then
 		isSad = false
-		print("When I get sad,")
+        print("When I get sad,")
 		return true
 	else
 		return SadBarney:new()
@@ -24,6 +24,7 @@ function beAwesome()
 	print("and be awesome instead")
 end
 
+--life motto
 if sad() then
 	sad().stop()
 	beAwesome()
