@@ -4,18 +4,22 @@ You might have come across an image with the following code in it:
 ```js
 //life motto
 if (sad() === true) {
-   sad().stop()
-   beAwesome()
+    sad().stop()
+    beAwesome()
 }
 ```
 
 This project aims to make complete working variants of the above code in different languages. 
 The variants should contain the code above, verbatim, except where the syntax does not allow.
 
-The code should print out Barney's quote:
-> When I get sad,
-> I stop being sad
-> and be awesome instead.
+The code should print out [Barney's quote](https://youtu.be/Dc01V_mygzg?t=14s):
+
+```
+When I get sad,
+stop being sad
+and be awesome instead.
+```
+
 when run, each line from the `sad()`, `stop()` and `beAwesome()` functions (or their equivalents).
 
 ##Variants
