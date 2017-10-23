@@ -1,4 +1,4 @@
-#What is this
+# What is this
 You might have come across an image with the following code in it:
 
 ```js
@@ -22,7 +22,7 @@ and be awesome instead.
 
 when run, each line from the `sad()`, `stop()` and `beAwesome()` functions (or their equivalents).
 
-##Variants
+## Variants
 
 1. [Javascript](https://github.com/kanyuga/barney/blob/master/barney.js)
 2. [Lua](https://github.com/kanyuga/barney/blob/master/barney.lua)
