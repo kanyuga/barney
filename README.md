@@ -12,7 +12,7 @@ if (sad() === true) {
 This project aims to make complete working variants of the above code in different languages. 
 The variants should contain the code above, verbatim, except where the syntax does not allow.
 
-The code should print out [Barney's quote](https://youtu.be/Dc01V_mygzg?t=14s):
+The code should print out [Barney's quote](https://youtu.be/Dc01V_mygzg?t=7s):
 
 ```
 When I get sad,
